@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>UnitLab</groupId>
-  <artifactId>UnitLab</artifactId>
+  <groupId>1</groupId>
+  <artifactId>1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>UnitLab</name>
+  <name>1</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,12 +21,13 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
-  
-  <dependency>
-	<groupId>org.mockito</groupId>
-	<artifactId>mockito-all</artifactId>
+    
+    <dependency>
+	  <groupId>org.mockito</groupId>
+	  <artifactId>mockito-all</artifactId>
 	<version>1.9.5</version>
-  </dependency>
-
+</dependency>
+    
+    
+  </dependencies>
 </project>
